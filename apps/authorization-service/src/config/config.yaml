@@ -1,0 +1,14 @@
+consul:
+  host: 192.168.1.20
+  port: 8500
+service:
+  id: your-service-id
+  name: your-service-name
+  port: 3000
+  tags: ['v1.0.1']
+  healthCheck:
+    timeout: 1s
+    interval: 10s
+    route: /health
+  maxRetry: 5
+  retryInterval: 5000

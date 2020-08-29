@@ -2,11 +2,7 @@
   "name": "instant-accounts-platform",
   "version": "0.0.0",
   "private": true,
-  "description": "A standard base ESLint configuration file",
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
+  "description": "Monorepo for Instant Accounts",
   "homepage": "https://github.com/instant-accounts/instant-accounts-platform",
   "bugs": {
     "url": "https://github.com/instant-accounts/instant-accounts-platform/issues",
